@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My First Page</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 24px;
+    }
+
+    h1 {
+      margin-bottom: 8px;
+    }
+
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 16px;
+      max-width: 420px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 10px 14px;
+      border-radius: 10px;
+      background: black;
+      color: rgb(255, 255, 255);
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Hello, I’m Luka</h1>
+  <p>This is my first webpage.</p>
+
+  <div class="card">
+    <h2>My Robot</h2>
+    <p>Name: RoboBobler</p>
+    <p>I am guarding the world and defending my pizza</p>
+    <button class="button" onclick="activateRobot()">Activate</button>
+  </div>
+
+  <script>
+    function activateRobot() {
+      alert("ROBOBOBLER ACTIVATED. PIZZA DEFENSE MODE ON 🍕🤖");
+    }
+  </script>
+</body>
+</html>
+
